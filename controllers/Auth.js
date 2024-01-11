@@ -101,6 +101,13 @@ exports.login = async (req, res) => {
                 user,
                 message: "User Logged in successfully",
             });
+
+            // res.status(200).json({
+            //     success: true,
+            //     token,
+            //     user,
+            //     message: "User Logged in successfully",
+            // });
         }
         else {
             //password do not match
